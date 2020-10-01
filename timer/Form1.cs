@@ -23,10 +23,6 @@ namespace timer
         {
         }
 
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
 
@@ -49,6 +45,17 @@ namespace timer
         private void progressBar1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Modifiers == Keys.Alt && e.KeyCode == Keys.F2)
+                   {
+                timer1.Stop();
+                KEYPAD fm3 = new KEYPAD();
+                fm3.Show();
+                this.Hide();
+                   }
         }
     }
 }

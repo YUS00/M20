@@ -9,3 +9,4 @@ C:\Users\Pc\source\repos\timer\timer\obj\Debug\timer.csproj.CoreCompileInputs.ca
 C:\Users\Pc\source\repos\timer\timer\obj\Debug\timer.exe
 C:\Users\Pc\source\repos\timer\timer\obj\Debug\timer.pdb
 C:\Users\Pc\source\repos\timer\timer\obj\Debug\timer.SEGON.resources
+C:\Users\Pc\source\repos\timer\timer\obj\Debug\timer.KEYPAD.resources
